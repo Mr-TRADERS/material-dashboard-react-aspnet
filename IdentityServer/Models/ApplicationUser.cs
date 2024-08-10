@@ -9,7 +9,7 @@ namespace IdentityServer.Models
 
         public ApplicationUser(string email)
         {
-            base.UserName = email; //use the username as email address
+            base.UserName = email; //use the username as email addresss
             base.Email = email;
             base.EmailConfirmed = true;            
         }
